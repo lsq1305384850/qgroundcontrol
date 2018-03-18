@@ -4251,16 +4251,6 @@ default 1.5 turns per second</short_desc>
       <increment>0.1</increment>
       <scope>modules/mc_att_control</scope>
     </parameter>
-    <parameter default="0.2" name="MC_PITCH_TC" type="FLOAT">
-      <short_desc>Pitch time constant</short_desc>
-      <long_desc>Reduce if the system is too twitchy, increase if the response is too slow and sluggish.</long_desc>
-      <min>0.15</min>
-      <max>0.25</max>
-      <unit>s</unit>
-      <decimal>2</decimal>
-      <increment>0.01</increment>
-      <scope>modules/mc_att_control</scope>
-    </parameter>
     <parameter default="0.30" name="MC_PR_INT_LIM" type="FLOAT">
       <short_desc>Pitch rate integrator limit</short_desc>
       <long_desc>Pitch rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large pitch moment trim changes.</long_desc>
@@ -4329,16 +4319,6 @@ default 1.5 turns per second</short_desc>
       <unit>1/s</unit>
       <decimal>2</decimal>
       <increment>0.1</increment>
-      <scope>modules/mc_att_control</scope>
-    </parameter>
-    <parameter default="0.2" name="MC_ROLL_TC" type="FLOAT">
-      <short_desc>Roll time constant</short_desc>
-      <long_desc>Reduce if the system is too twitchy, increase if the response is too slow and sluggish.</long_desc>
-      <min>0.15</min>
-      <max>0.25</max>
-      <unit>s</unit>
-      <decimal>2</decimal>
-      <increment>0.01</increment>
       <scope>modules/mc_att_control</scope>
     </parameter>
     <parameter default="0.30" name="MC_RR_INT_LIM" type="FLOAT">
